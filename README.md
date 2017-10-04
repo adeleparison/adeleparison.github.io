@@ -31,3 +31,5 @@ Je veux développer des compétences dans les différents langages du web, afin 
 ## Demain
 
 Mon projet professionnel, c'est de monter ma propre entreprise print et web, ou bien de travailler dans le domaine de la luxure/événementiel.
+
+[Me contacter](contact.html)
