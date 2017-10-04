@@ -1,0 +1,81 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+/*body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}*/
+
+/*
+p {
+  margin: auto
+}*/
+
+.burger {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.burger > p {
+  margin: 0 auto;
+}
+
+.pain-haut {
+  height: 70px;
+  width: 60%;
+  background: #e5b05a;
+  border-radius: 100px 100px 20px 20px;
+  border-bottom: solid 10px rgba(0,0,0,.1);
+  text-align: center;
+}
+
+
+
+.cheese {
+  height: 15px;
+  width: 65%;
+  background: #f2c120;
+  border-bottom: solid 2px rgba(0,0,0,.1); 
+  text-align: center;
+}
+  
+.tomato {
+  height: 15px;
+  width: 60%;
+  background-color: #dd3710;
+  border-bottom: solid 2px rgba(0,0,0,.1); 
+  text-align: center;
+}
+
+.viande {
+  height: 35px;
+  width: 65%;
+  background: #ad370b;
+  border-radius: 15px;
+  border-bottom: solid 2px rgba(0,0,0,.1);
+  text-align: center;
+}
+
+.salade {
+  height: 30px;
+  width: 50%;
+  background: #3ac67d;
+  border-radius: 0 0 100px 100px;
+  border-bottom: solid 10px #2d9961;
+  text-align: center;
+}
+
+.pain-bas {
+  height: 35px;
+  width: 60%;
+  background: #e5b05a;
+  border-radius: 20px 20px 40px 40px;
+  border-top: solid 8px rgba(0,0,0,.1);
+  text-align: center;
+  
+}
