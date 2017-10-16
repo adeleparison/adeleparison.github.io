@@ -1,44 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
+    <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Présentation</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.O">
+    <title>Mon Hamburger</title>
+    <link rel="stylesheet" type="text/css" href="Formulaire.css">
   </head>
   <body>
     
-    <form method="post" action="https://formspree.io/adele.parison@hotmail.fr" class="burger">
+    <form method="post" action="https://formspree.io/adele.parison@hotmail.fr" method="POST" class="burger">
       
         <p class="pain-haut">
-          <label for="prenom">Votre prénom</label>
-          <input type="text" name="prenom" id="prenom"/><br/>
+          <input class="un" type="text" name="prenom" id="prenom" placeholder="Votre prénom" /><br/>
         </p>
       
-        <p class="cheese">
-          <label for="nom">Votre nom</label>
-          <input type="text" name="nom" id="nom"/><br/>
+        <p class="cheese">          
+          <input class="deux" type="text" name="nom" id="nom" placeholder="Votre nom"/><br/>
         </p>
         
-        
+       
       <p class="tomato">
-          <label for="age">Votre âge</label>
-          <input type="date" name="age" id="age"/><br/>
+        <!---<input type="date" name="age" id="age" placeholder="Votre âge :"/><br/>--->
       </p>
         
       <p class="viande">
-          <label for="mail">Votre e-mail</label>
-          <input type="email" name="mail" id="mail"/><br/>
+          <input class="trois" type="email" name="mail" id="mail" placeholder="Votre e-mail "/><br/>
       </p>
         
       <p class="salade">
-          <label for="tel">Votre téléphone</label>
-          <input type="tel" name="tel" id="tel"/><br/>
+          <input class="quatre" type="tel" name="tel" id="tel" placeholder="Votre téléphone"/><br/>
       </p>
           
       <p class="pain-bas">
           <label for="envoyer"></label>
-          <input type="submit" value="Envoyer" id="envoyer" />
+          <input class="bouton" type="submit" value="Envoyer" id="envoyer" />
       </p>
       
     </form>
