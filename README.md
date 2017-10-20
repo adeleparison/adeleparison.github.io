@@ -1,5 +1,6 @@
 ---
-permalink: index.html
+layout: contact
+permalink: contact.html
 ---
 
 # Présentation
