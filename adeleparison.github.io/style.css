@@ -1,0 +1,115 @@
+body {
+  background-color: white;
+  font-family: "helvetica", sans-serif;
+  padding: 5px 25px;
+  font-size: 13px;
+  margin: 0;
+  color: #fff;
+  margin-top: 200px;
+}
+
+.burger {
+  max-width: 370px;
+  margin: 0 auto;
+}
+
+.burger > p {
+  margin: 0 auto;
+
+}
+
+.pain-haut {
+  height: 70px;
+  width: 70%;
+  background: #e5b05a;
+  border-radius: 100px 100px 20px 20px;
+  border-bottom: solid 10px rgba(0,0,0,.1);
+  text-align: center;
+}
+
+.un {
+    color: #e5b05a;
+    margin-top: 26px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.cheese {
+  height: 20px;
+  width: 65%;
+  background: #f2c120;
+  border-bottom: solid 2px rgba(0,0,0,.1); 
+  text-align: center;
+}
+
+.deux {
+    color: #f2c120;
+    margin-top: 1px;
+    text-align: center;
+    border-radius: 4px;
+}
+  
+.tomato {
+  height: 20px;
+  width: 65%;
+  background-color: #dd3710;
+  border-bottom: solid 2px rgba(0,0,0,.1); 
+}
+
+.viande {
+  height: 35px;
+  width: 65%;
+  background: #ad370b;
+  border-radius: 15px;
+  border-bottom: solid 2px rgba(0,0,0,.1);
+  text-align: center;
+}
+
+.trois {
+    color: #ad370b;
+    margin-top: 8px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.salade {
+  height: 25px;
+  width: 65%;
+  background: #3ac67d;
+  border-radius: 0 0 100px 100px;
+  border-bottom: solid 10px #2d9961;
+  text-align: center;
+}
+
+.quatre {
+    color: #3ac67d;
+    margin-top: 4px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.pain-bas {
+  height: 35px;
+  width: 70%;
+  background: #e5b05a;
+  border-radius: 20px 20px 40px 40px;
+  border-top: solid 8px rgba(0,0,0,.1);
+  text-align: center;
+}
+
+.bouton {
+    color: white;
+    margin-top: 5px;
+    border-radius: 4px;
+    background-color: #e5b05a
+}
+
+.bouton:hover {
+    color: white;
+    background-color: #cd9d57;
+}
+
+
+
+
+
